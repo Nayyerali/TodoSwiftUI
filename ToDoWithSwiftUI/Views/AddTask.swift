@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AddTask.swift
 //  ToDoWithSwiftUI
 //
 //  Created by Siliconplex on 05/11/2020.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AddTask: View {
     var body: some View {
-        Text("Hello, World!")
+        Text("Add Task")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AddTask_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AddTask()
     }
 }
